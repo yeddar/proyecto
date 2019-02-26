@@ -10,4 +10,10 @@ public class Tarifa {
     public Tarifa(double priceSec) {
         this.priceSec = priceSec;
     }
+
+    public double getTarifa(){ return priceSec;}
+
+    public void setTarifa(double priceSec) {
+        this.priceSec = priceSec;
+    }
 }

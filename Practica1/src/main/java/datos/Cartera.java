@@ -1,6 +1,8 @@
 package datos;
 
 
+
+
 import java.util.HashMap;
 
 import java.util.Map;
@@ -17,15 +19,28 @@ public class Cartera {
         clientes.put(cliente.getNif(),cliente);
     }
 
-
+/*
     public void listarClientes(){
         for(String nif : clientes.keySet()){
             System.out.println(clientes.get(nif));
         }
     }
+*/
 
+    public Map<String, Cliente> getClientes(){
+        return clientes;
+    }
     public Cliente buscarPorNif(String nif){
-        return clientes.get(nif);
+        Cliente cliente = clientes.get(nif);
+        return cliente;
+    }
+
+    public void setTarifa(String nif, double priceSec){
+        clientes.get(nif).setTarifa(priceSec);
+    }
+
+    public void eliminaCliente(String nif) {
+        clientes.remove(nif);
     }
 
 

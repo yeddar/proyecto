@@ -8,7 +8,7 @@ public class BuscarPorNif implements EjecutaOpcion {
 
     public void ejecuta(Cartera cartera) {
         CONSOLA.print("Nif a buscar: ");
-        String nif = TECLADO.nextLine();
+        String nif = TECLADO.next();
         Cliente cliente = cartera.buscarPorNif(nif);
 
         if(cliente == null)
