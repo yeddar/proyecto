@@ -1,0 +1,2 @@
+1- ¿POR QUÉ LOS MÉTODOS DE LAS CLASES QUE IMPLEMENTAN LA INTERFAZ OPTIONMENU NO TIENEN OVERRIDE?
+Hay que comprobar al añadir un cliente si existe su nif.
