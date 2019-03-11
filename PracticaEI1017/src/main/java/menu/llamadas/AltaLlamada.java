@@ -1,10 +1,8 @@
 package menu.llamadas;
 
-import datos.Cartera;
-import datos.Cliente;
-import datos.Fecha;
-import datos.Llamada;
+import datos.*;
 import menu.EjecutaOpcion;
+import menu.PedirFecha;
 
 public class AltaLlamada implements EjecutaOpcion{
 	
@@ -16,17 +14,13 @@ public class AltaLlamada implements EjecutaOpcion{
             CONSOLA.println("El cliente no existe.");
             return;
         }
-        CONSOLA.print("Tel�fono: ");
+        CONSOLA.print("Telefono: ");
         String phone = TECLADO.next();
-        CONSOLA.print("Duraci�n de la llamada (min): ");
+        CONSOLA.print("Duracion de la llamada (min): ");
         double duration = TECLADO.nextDouble();
-        CONSOLA.print("Fecha de realizaci�n (DIA): ");
-        int cal_day = TECLADO.nextInt();
-        CONSOLA.print("(MES): ");
-        int cal_month = TECLADO.nextInt();
-        CONSOLA.print("(A�O): ");
-        int cal_year = TECLADO.nextInt();
-        Fecha cal = new Fecha(cal_year, cal_month, cal_day);
-        cliente.altaLlamada(new Llamada(phone,cal,duration));
+
+        System.out.print("Fecha de realización de la llamada (DD/MM/YYYY): ");
+        Fecha date = new PedirFecha().pideFecha();
+        cliente.altaLlamada(new Llamada(phone, date, duration));
     }
 }

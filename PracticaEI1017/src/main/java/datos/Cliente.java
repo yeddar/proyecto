@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Cliente {
+public class Cliente implements Fechas{
 
 	private Address address;
     private Map<String,Factura> facturas;
@@ -51,10 +51,6 @@ public class Cliente {
     public Map<String, Factura> getListaFacturas(){
     	return facturas;
     }
-
-    public String getFecha(){ 
-    	return dichargeDate.toString();
-    }
     
     public Tarifa getTarifa() {
     	return tarifa;
@@ -76,6 +72,10 @@ public class Cliente {
     	facturas.put(code, factura);
     }
 
+    @Override
+    public Fecha getFecha(){
+        return dichargeDate;
+    }
 
     @Override
     public String toString() {

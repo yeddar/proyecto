@@ -10,14 +10,14 @@ public class DatoFactura implements EjecutaOpcion{
 		CONSOLA.print("Nif del cliente: ");
         String nif = TECLADO.next();
         if (cartera.buscarPorNif(nif) == null) {
-        	CONSOLA.println("No existe ningún cliente con este NIF.\n");
+        	CONSOLA.println("No existe ningun cliente con este NIF.\n");
         	return;
         }
-        CONSOLA.print("Código de la factura: ");
+        CONSOLA.print("Codigo de la factura: ");
         String code = TECLADO.next();
         Factura factura = cartera.buscarPorNif(nif).getFactura(code);
         if (factura == null) {
-        	CONSOLA.println("No existe ninguna factura con ese código para este cliente.\n");
+        	CONSOLA.println("No existe ninguna factura con ese codigo para este cliente.\n");
         	return;
         }
         CONSOLA.println(factura);

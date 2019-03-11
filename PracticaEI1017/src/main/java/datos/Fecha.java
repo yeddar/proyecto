@@ -1,50 +1,43 @@
 package datos;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.time.LocalDate;
+
 
 public class Fecha {
-	private Calendar dia;
-	
-	public Fecha() {
-		super();
-	}
-	
-	public Fecha(Calendar calendar) {
-		super();
-		this.dia = calendar;
-	}
-	
-	public Fecha(int year, int month, int day) {
-		super();
-		dia = new GregorianCalendar();
-		dia.set(year, month-1, day);;
-	}
-	
-	public int getYear() {
-		return dia.get(Calendar.YEAR);
-	}
-	
-	public int getMonth() {
-		return dia.get(Calendar.MONTH);
-	}
-	
-	public int getDay() {
-		return dia.get(Calendar.DAY_OF_MONTH);
-	}
-	
-	public Calendar getDia() {
-		return dia;
-	}
-	
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append(dia.get(Calendar.DAY_OF_MONTH));
-		builder.append(" / ");
-		builder.append(dia.get(Calendar.MONTH) + 1);
-		builder.append(" / ");
-		builder.append(dia.get(Calendar.YEAR));
-		return builder.toString();
-	}
+    private LocalDate date;
+
+    public Fecha(){
+        super();
+    }
+
+    public Fecha(LocalDate date){
+        this.date = date;
+    }
+
+    public Fecha(String day, String month, String year){
+        this.date = LocalDate.parse(year+"-"+month+"-"+day);
+    }
+
+    public LocalDate getFecha(){
+        return date;
+    }
+
+    public boolean insideOf(Fecha inicio, Fecha fin){
+        if((this.date.compareTo(inicio.date) >= 0) && this.date.compareTo(fin.date) <= 0)
+            return true;
+        else
+            return false;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(date.getDayOfMonth());
+        builder.append(" of ");
+        builder.append(date.getMonth());
+        builder.append(" ");
+        builder.append(date.getYear());
+        return builder.toString();
+    }
+
 }

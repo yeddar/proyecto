@@ -14,7 +14,7 @@ public class CambiaTarifa implements EjecutaOpcion{
             CONSOLA.println("Cliente no encontrado.");
             return;
         }
-        CONSOLA.print("Indica la tarifa (€/min): ");
+        CONSOLA.print("Indica la tarifa (eur/min): ");
         double priceSec = TECLADO.nextDouble();
         cartera.setTarifa(nif, priceSec);
     }

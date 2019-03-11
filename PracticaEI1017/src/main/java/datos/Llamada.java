@@ -1,43 +1,46 @@
 package datos;
 
-public class Llamada {
 
-	private String telefono;
-	private Fecha dia_llamada;
-	private double tiempo;
+
+public class Llamada implements Fechas{
+
+	private String phone;
+	private Fecha day;
+	private double duration;
 	
 	public Llamada() {
 		super();
 	}
 	
-	public Llamada(String telefono, Fecha dia_llamada, double tiempo) {
+	public Llamada(String phone, Fecha day, double duration) {
 		super();
-		this.telefono = telefono;
-		this.dia_llamada = dia_llamada;
-		this.tiempo = tiempo;
+		this.phone = phone;
+		this.day = day;
+		this.duration = duration;
 	}
 	
 	public String getTelefono() {
-		return telefono;
-	}
-	
-	public Fecha getFecha() {
-		return dia_llamada;
+		return this.phone;
 	}
 	
 	public double getTiempo() {
-		return tiempo;
+		return this.duration;
 	}
-	
+
+	@Override
+	public Fecha getFecha() {
+		return this.day;
+	}
+
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("[ Tel: ");
-		builder.append(telefono);
-		builder.append(", Día llamada: ");
-		builder.append(dia_llamada.toString());
+		builder.append(this.phone);
+		builder.append(", Dia llamada: ");
+		builder.append(this.day.toString());
 		builder.append(", Tiempo: ");
-		builder.append(tiempo);
+		builder.append(this.duration);
 		builder.append(" ]");
 		return builder.toString();
 	}

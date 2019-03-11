@@ -1,6 +1,7 @@
 package datos;
 
-public class Factura{
+
+public class Factura implements Fechas{
 	private String code;
 	private double tarifa;
     private Fecha dateOfIssue;
@@ -28,10 +29,7 @@ public class Factura{
     public double getTarifa() {
     	return this.tarifa;
     }
-    
-    public Fecha getFecha() {
-    	return this.dateOfIssue;
-    }
+
     
     public Fecha getDateOfStart() {
     	return this.dateOfStart;
@@ -44,12 +42,28 @@ public class Factura{
     public double getAmount() {
     	return this.amount;
     }
-    
+
+    @Override
+    public Fecha getFecha() {
+        return this.dateOfIssue;
+    }
+
+
     @Override
     public String toString() {
     	StringBuilder builder = new StringBuilder();
 		builder.append("[ ");
-		builder.append(code + ", " + tarifa + ", " + dateOfIssue + ", " + dateOfStart + ", " + dateOfEnd + ", " + amount);
+        builder.append("Code: "+code);
+        builder.append(", ");
+        builder.append("Bill: "+tarifa);
+        builder.append(", ");
+        builder.append("Date of Issue: "+dateOfIssue);
+        builder.append(", ");
+        builder.append("Date of start: "+dateOfStart);
+        builder.append(", ");
+        builder.append("Date of end: "+dateOfEnd);
+        builder.append(", ");
+        builder.append("Amount: "+amount+"€");
 		builder.append(" ]");
 		return builder.toString();
     }

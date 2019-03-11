@@ -1,13 +1,12 @@
 package menu.facturas;
 
+import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.List;
-import datos.Cartera;
-import datos.Cliente;
-import datos.Factura;
+
+import datos.*;
 import menu.EjecutaOpcion;
-import datos.Llamada;
-import datos.Fecha;
+import menu.PedirFecha;
 
 public class EmiteFactura implements EjecutaOpcion{
 
@@ -24,33 +23,30 @@ public class EmiteFactura implements EjecutaOpcion{
             code = TECLADO.next();
         	Factura factura = cliente.getFactura(code);
         	if (factura == null)
+        		// No hay factura registrada con ese cÃ³digo.
         		break;
-        	CONSOLA.println("Ese código ya existe para este cliente.");
+
+        	CONSOLA.println("Ese codigo ya existe para este cliente.");
         }
+
         double amount = 0;
-        Fecha hoy = new Fecha(Calendar.getInstance());
-        CONSOLA.print("Fecha de inicio: ");
-        Fecha dia_inicio = createFecha();
-        CONSOLA.print("Fecha de parada: ");
-        Fecha dia_parada = createFecha();
+        Fecha hoy = new Fecha(LocalDate.now());
+
+        // Pide al usuario el intervalo de la factura.
+        CONSOLA.print("Fecha de inicio (DD/MM/YYYY): ");
+		Fecha diaInicio = new PedirFecha().pideFecha();
+        CONSOLA.print("Fecha de parada (DD/MM/YYYY): ");
+        Fecha diaParada = new PedirFecha().pideFecha();
+
+
         List<Llamada> lista = cliente.getLlamadas();
         for (Llamada llamada : lista) {
         	Fecha actual = llamada.getFecha();
-        	if (actual.getDia().compareTo(dia_parada.getDia())<=0 && actual.getDia().compareTo(dia_inicio.getDia())>=0){  // Es correcta
+        	if (actual.insideOf(diaInicio,diaParada)){  // Es correcta
         		amount = amount + llamada.getTiempo() * cliente.getTarifa().getPriseSec();
         	}
         } double tarifaUsada = cliente.getTarifa().getPriseSec();
-        Factura nuevaFactura = new Factura(code, tarifaUsada, hoy, dia_inicio, dia_parada, amount);
+        Factura nuevaFactura = new Factura(code, tarifaUsada, hoy, diaInicio, diaParada, amount);
         cliente.altaFactura(code, nuevaFactura);
-	}
-	
-	private Fecha createFecha() {
-		 CONSOLA.print("(DIA): ");
-	     int dia = TECLADO.nextInt();
-	     CONSOLA.print("(MES): ");
-	     int mes = TECLADO.nextInt();
-		 CONSOLA.print("(AÑO): ");
-	     int año = TECLADO.nextInt();
-	     return new Fecha(año,mes,dia);
 	}
 }
