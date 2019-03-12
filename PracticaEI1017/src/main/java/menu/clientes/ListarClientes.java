@@ -1,11 +1,11 @@
 package menu.clientes;
 
 import datos.Cartera;
-import datos.Cliente;
+import datos.clientes.Cliente;
 import datos.Fecha;
 import datos.Funcional;
 import menu.EjecutaOpcion;
-import menu.PedirFecha;
+import menu.Utilidades;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,9 +22,9 @@ public class ListarClientes implements EjecutaOpcion{
 
     public void porFecha(Cartera cartera) {
 	    CONSOLA.print("Fecha inicio (DD/MM/YYYY): ");
-	    Fecha diaInicio = new PedirFecha().pideFecha();
+	    Fecha diaInicio = Utilidades.pideFecha();
         CONSOLA.print("Fecha fin (DD/MM/YYYY): ");
-        Fecha diaParada = new PedirFecha().pideFecha();
+        Fecha diaParada = Utilidades.pideFecha();
         List<Cliente> newList = new ArrayList<>(cartera.getClientes().values());
         newList = new Funcional().filtrar(newList,diaInicio,diaParada);
         if(newList.isEmpty()) {

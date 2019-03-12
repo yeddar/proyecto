@@ -1,19 +1,21 @@
 package menu.clientes;
 
 import datos.Cartera;
-import datos.Cliente;
+import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
+import menu.Utilidades;
 
 public class BuscarPorNif implements EjecutaOpcion{
 	public void ejecuta(Cartera cartera) {
-        CONSOLA.print("Nif a buscar: ");
-        String nif = TECLADO.next();
-        Cliente cliente = cartera.buscarPorNif(nif);
 
-        if(cliente == null)
-            CONSOLA.println("El cliente no existe.");
-        else {
-            CONSOLA.println(cliente);
+        String nif = Utilidades.pedirNif();
+        try {
+            Utilidades.clienteExiste(cartera, nif);
+            System.out.println(cartera.buscarPorNif(nif));
+
+        } catch(IllegalArgumentException e) {
+            System.out.println("Cliente no encontrado.");
         }
+
     }
 }

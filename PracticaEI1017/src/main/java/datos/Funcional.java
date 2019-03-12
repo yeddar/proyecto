@@ -9,7 +9,6 @@ public class Funcional {
         List<T> newList = new ArrayList<T>();
 
         for (T elem : list) {
-            // Si la fecha no se encuentra entre el inicio y final se borra el objeto del conjunto.
             if(elem.getFecha().insideOf(ini,fin))
                 newList.add(elem);
         }

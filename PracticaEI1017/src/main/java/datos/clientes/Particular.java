@@ -1,4 +1,7 @@
-package datos;
+package datos.clientes;
+
+import datos.Fecha;
+import datos.clientes.Cliente;
 
 public class Particular extends Cliente {
 	private String surnames;

@@ -1,12 +1,12 @@
 package menu.facturas;
 
 import java.time.LocalDate;
-import java.util.Calendar;
 import java.util.List;
 
 import datos.*;
+import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
-import menu.PedirFecha;
+import menu.Utilidades;
 
 public class EmiteFactura implements EjecutaOpcion{
 
@@ -34,9 +34,9 @@ public class EmiteFactura implements EjecutaOpcion{
 
         // Pide al usuario el intervalo de la factura.
         CONSOLA.print("Fecha de inicio (DD/MM/YYYY): ");
-		Fecha diaInicio = new PedirFecha().pideFecha();
+		Fecha diaInicio = Utilidades.pideFecha();
         CONSOLA.print("Fecha de parada (DD/MM/YYYY): ");
-        Fecha diaParada = new PedirFecha().pideFecha();
+        Fecha diaParada = Utilidades.pideFecha();
 
 
         List<Llamada> lista = cliente.getLlamadas();

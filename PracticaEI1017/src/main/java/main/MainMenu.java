@@ -32,7 +32,7 @@ public class MainMenu {
         System.out.println("13.-Listar llamadas por fecha.");
     }
 
-    private void filtrarOpcion(int option, Cartera cartera){
+    private void filtrarOpcion(int option){
         switch(option) {
             case 1:
                 new AltaEmpresa().ejecuta(cartera);
@@ -89,7 +89,7 @@ public class MainMenu {
             showMenu();
             System.out.print("Introduce una opcion: ");
             option = entrada.nextInt();
-            filtrarOpcion(option, cartera);
+            filtrarOpcion(option);
 
         } while(salir != true);
         System.out.println("\nHasta luego.");

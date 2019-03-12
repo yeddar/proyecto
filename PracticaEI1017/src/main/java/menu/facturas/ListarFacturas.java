@@ -5,8 +5,9 @@ import java.util.List;
 import java.util.Set;
 
 import datos.*;
+import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
-import menu.PedirFecha;
+import menu.Utilidades;
 
 public class ListarFacturas implements EjecutaOpcion{
 
@@ -32,9 +33,9 @@ public class ListarFacturas implements EjecutaOpcion{
             return;
         }
         CONSOLA.print("Fecha inicio (DD/MM/YYYY): ");
-        Fecha diaInicio = new PedirFecha().pideFecha();
+        Fecha diaInicio = Utilidades.pideFecha();
         CONSOLA.print("Fecha fin (DD/MM/YYYY): ");
-        Fecha diaParada = new PedirFecha().pideFecha();
+        Fecha diaParada = Utilidades.pideFecha();
 
         List<Factura> newList = new ArrayList<>(cliente.getListaFacturas().values());
 

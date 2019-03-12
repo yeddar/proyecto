@@ -1,8 +1,10 @@
 package menu.clientes;
 
 import datos.*;
+import datos.clientes.Cliente;
+import datos.clientes.Empresa;
 import menu.EjecutaOpcion;
-import menu.PedirFecha;
+import menu.Utilidades;
 
 public class AltaEmpresa implements EjecutaOpcion{
 
@@ -24,7 +26,7 @@ public class AltaEmpresa implements EjecutaOpcion{
         CONSOLA.print("City: ");
         String city = TECLADO.next();
         System.out.print("Fecha de alta (DD/MM/YYYY): ");
-        Fecha date = new PedirFecha().pideFecha();
+        Fecha date = Utilidades.pideFecha();
         Cliente cliente = new Empresa(date,postalCode,province,city,nif,name,email);
         cartera.nuevoCliente(cliente);
     }

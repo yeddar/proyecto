@@ -1,7 +1,8 @@
 package datos.test;
 
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+import datos.clientes.Cliente;
+import datos.clientes.Empresa;
+import datos.clientes.Particular;
 import org.junit.Test;
 
 import datos.*;

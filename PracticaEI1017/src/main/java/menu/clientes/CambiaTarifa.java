@@ -1,7 +1,7 @@
 package menu.clientes;
 
 import datos.Cartera;
-import datos.Cliente;
+import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
 
 public class CambiaTarifa implements EjecutaOpcion{

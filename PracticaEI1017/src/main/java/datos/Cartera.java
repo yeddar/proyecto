@@ -1,5 +1,7 @@
 package datos;
 
+import datos.clientes.Cliente;
+
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,14 +1,18 @@
-package datos;
+package datos.clientes;
+
+import datos.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Cliente implements Fechas{
+// TODO abstract añadido.
+
+public abstract class Cliente implements Fechas {
 
 	private Address address;
-    private Map<String,Factura> facturas;
+    private Map<String, Factura> facturas;
     private List<Llamada> llamadas;
     private Tarifa tarifa;
     private Fecha dichargeDate;

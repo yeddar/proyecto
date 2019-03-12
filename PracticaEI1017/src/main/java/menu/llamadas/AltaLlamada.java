@@ -1,8 +1,9 @@
 package menu.llamadas;
 
 import datos.*;
+import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
-import menu.PedirFecha;
+import menu.Utilidades;
 
 public class AltaLlamada implements EjecutaOpcion{
 	
@@ -20,7 +21,7 @@ public class AltaLlamada implements EjecutaOpcion{
         double duration = TECLADO.nextDouble();
 
         System.out.print("Fecha de realización de la llamada (DD/MM/YYYY): ");
-        Fecha date = new PedirFecha().pideFecha();
+        Fecha date = Utilidades.pideFecha();
         cliente.altaLlamada(new Llamada(phone, date, duration));
     }
 }
