@@ -6,28 +6,32 @@ import datos.clientes.Empresa;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
+import java.util.Scanner;
+
 public class AltaEmpresa implements EjecutaOpcion{
 
 	public void ejecuta(Cartera cartera) {
-		CONSOLA.print("Nif: ");
-        String nif = TECLADO.next();
+	    Scanner teclado = new Scanner(System.in);
+		System.out.print("Nif: ");
+        String nif = teclado.next();
         if (cartera.buscarPorNif(nif) != null) {
-        	CONSOLA.println("Ya existe un cliente con este nif.\n");
+            System.out.println("Ya existe un cliente con este nif.\n");
         	return;
         }
-		CONSOLA.print("Name: ");
-        String name = TECLADO.next();
-        CONSOLA.print("Email: ");
-        String email = TECLADO.next();
-        CONSOLA.print("Postal Code: ");
-        String postalCode = TECLADO.next();
-        CONSOLA.print("Province: ");
-        String province = TECLADO.next();
-        CONSOLA.print("City: ");
-        String city = TECLADO.next();
+        System.out.print("Name: ");
+        String name = teclado.next();
+        System.out.print("Email: ");
+        String email = teclado.next();
+        System.out.print("Postal Code: ");
+        String postalCode = teclado.next();
+        System.out.print("Province: ");
+        String province = teclado.next();
+        System.out.print("City: ");
+        String city = teclado.next();
         System.out.print("Fecha de alta (DD/MM/YYYY): ");
-        Fecha date = Utilidades.pideFecha();
-        Cliente cliente = new Empresa(date,postalCode,province,city,nif,name,email);
+        String date = teclado.next();
+        Fecha dateConversed = Utilidades.pideFecha(date);
+        Cliente cliente = new Empresa(dateConversed,postalCode,province,city,nif,name,email);
         cartera.nuevoCliente(cliente);
     }
 	

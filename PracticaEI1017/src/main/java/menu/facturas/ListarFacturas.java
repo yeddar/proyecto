@@ -2,6 +2,7 @@ package menu.facturas;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.Set;
 
 import datos.*;
@@ -12,41 +13,44 @@ import menu.Utilidades;
 public class ListarFacturas implements EjecutaOpcion{
 
 	public void ejecuta (Cartera cartera) {
-		CONSOLA.print("Nif del cliente: ");
-        String nif = TECLADO.next();
+        Scanner teclado = new Scanner(System.in);
+		String nif = Utilidades.pedirNif();
         if (cartera.buscarPorNif(nif) == null) {
-        	CONSOLA.println("No existe ningun cliente con este NIF.\n");
+            System.out.println("No existe ningun cliente con este NIF.\n");
         	return;
         }
         Set<String> lista = cartera.buscarPorNif(nif).getListaFacturas().keySet();
         for (String code : lista) {
-        	CONSOLA.println(cartera.buscarPorNif(nif).getFactura(code));
+            System.out.println(cartera.buscarPorNif(nif).getFactura(code));
         }
 	}
 
     public void porFecha(Cartera cartera) {
-        CONSOLA.print("Nif del cual se desea obtener las facturas: ");
-        String nif = TECLADO.next();
+	    Scanner teclado = new Scanner(System.in);
+        System.out.print("Nif del cual se desea obtener las facturas: ");
+        String nif = teclado.next();
         Cliente cliente = cartera.buscarPorNif(nif);
         if(cliente == null){
-            CONSOLA.println("El cliente no existe.");
+            System.out.println("El cliente no existe.");
             return;
         }
-        CONSOLA.print("Fecha inicio (DD/MM/YYYY): ");
-        Fecha diaInicio = Utilidades.pideFecha();
-        CONSOLA.print("Fecha fin (DD/MM/YYYY): ");
-        Fecha diaParada = Utilidades.pideFecha();
+        System.out.print("Fecha inicio (DD/MM/YYYY): ");
+        String date = teclado.next();
+        Fecha diaInicio = Utilidades.pideFecha(date);
+        System.out.print("Fecha fin (DD/MM/YYYY): ");
+        date = teclado.next();
+        Fecha diaParada = Utilidades.pideFecha(date);
 
         List<Factura> newList = new ArrayList<>(cliente.getListaFacturas().values());
 
         newList = new Funcional().filtrar(newList,diaInicio,diaParada);
         if(newList.isEmpty()) {
-            CONSOLA.println("No se ha encontrado ningúna factura dentro de ese periodo.");
+            System.out.println("No se ha encontrado ningúna factura dentro de ese periodo.");
             return;
         }
         // Hay clientes en la lista.
         for(Factura bill : newList) {
-            CONSOLA.println(bill);
+            System.out.println(bill);
         }
     }
 }

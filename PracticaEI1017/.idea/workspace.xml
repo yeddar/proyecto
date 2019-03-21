@@ -2,49 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a083ce-89ed-45ed-be33-1baab53af80c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/OpcionMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/menu/Utilidades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menu/OptionsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menu/Salir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientesFecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturasFecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadasFecha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaMejorable" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaMejorada" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorada" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conversor" beforeDir="false" afterPath="$PROJECT_DIR$/../Conversor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PracticaEI1017.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Cartera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/Cartera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/clientes/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/clientes/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Funcional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/Funcional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/datos/Particular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datos/clientes/Particular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/PedirFecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/EjecutaOpcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/EjecutaOpcion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/OpcionMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/Utilidades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/AltaEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/AltaEmpresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/BuscarPorNif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/BuscarPorNif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/BajaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/BajaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/CambiaTarifa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/CambiaTarifa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/menu/facturas/DatoFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/facturas/DatoFactura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/facturas/EmiteFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/facturas/EmiteFactura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/datos/test/DatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/datos/test/DatosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Cartera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datos/Cartera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Empresa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datos/Factura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Funcional.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datos/Funcional.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datos/Particular.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/main/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu/PedirFecha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menu/EjecutaOpcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/EjecutaOpcion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menu/OpcionMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menu/Utilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/Utilidades.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/AltaEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/AltaEmpresa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/AltaParticular.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/AltaParticular.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/BajaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/BajaCliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/BuscarPorNif.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/BuscarPorNif.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/CambiaTarifa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/CambiaTarifa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/clientes/ListarClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/clientes/ListarClientes.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/facturas/DatoFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/facturas/DatoFactura.class" afterDir="false" />
@@ -52,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/menu/facturas/ListarFacturas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/facturas/ListarFacturas.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/llamadas/AltaLlamada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/llamadas/AltaLlamada.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/menu/llamadas/ListarLlamadas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu/llamadas/ListarLlamadas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/datos/test/DatosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/datos/test/DatosTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/misc.xml" beforeDir="false" />
@@ -78,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="36" />
+            <state relative-caret-position="-815">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,28 +79,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/datos/Llamada.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="465">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientesFecha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/menu/Utilidades.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="555">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,10 +100,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/OptionsMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="861" selection-start-line="861" selection-end-line="861" />
+            <state relative-caret-position="341">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/Salir.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturasFecha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadasFecha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,8 +150,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="555">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/menu/EjecutaOpcion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -148,6 +184,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>salir</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -166,18 +207,28 @@
         <option value="$PROJECT_DIR$/src/main/java/datos/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/clientes/Cliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/Funcional.java" />
         <option value="$PROJECT_DIR$/src/main/java/datos/Cartera.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/clientes/BuscarPorNif.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/EjecutaOpcion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/Utilidades.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/clientes/AltaEmpresa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/facturas/DatoFactura.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/facturas/EmiteFactura.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/clientes/BajaCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/clientes/CambiaTarifa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/OpcionMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/menu/Utilidades.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientesFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturasFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadasFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/OptionsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/menu/Salir.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -303,7 +354,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552390050842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553169351086" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -367,7 +419,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22213247" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +428,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,20 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="1850" selection-start-line="1850" selection-end-line="1850" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/datos/test/DatosTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="104" selection-start-line="36" selection-start-column="104" selection-end-line="36" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/DatoFactura.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -543,51 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/BuscarPorNif.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/AltaEmpresa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="4" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/BajaCliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/CambiaTarifa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Llamada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/datos/Funcional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -598,86 +591,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/EmiteFactura.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/PedirFecha.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/datos/Llamada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/PedirFecha.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="12225">
+          <caret line="861" selection-start-line="861" selection-end-line="861" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/datos/test/DatosTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/DatoFactura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/EmiteFactura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/OpcionMenu.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/Utilidades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/CambiaTarifa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/OpcionMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/BajaCliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/BuscarPorNif.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/AltaParticular.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/AltaEmpresa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/AltaLlamada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menu/EjecutaOpcion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="465">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="608">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/clientes/ListarClientesFecha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="85" column="36" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="36" />
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="555">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/menu/Utilidades.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/llamadas/ListarLlamadasFecha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="533">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/Salir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/facturas/ListarFacturasFecha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/menu/OptionsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-815">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

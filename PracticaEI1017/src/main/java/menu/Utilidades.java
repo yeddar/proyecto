@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 public class Utilidades {
 
+
+    // TODO hay métodos cómo AltaEmpresa que deben devolver una excepción cuando el cliente SÍ exista y este método hace lo contrario.
     public static void clienteExiste(Cartera cartera, String nif) {
         if(cartera.buscarPorNif(nif) == null)
             throw new IllegalArgumentException();
@@ -16,14 +18,10 @@ public class Utilidades {
         Scanner teclado = new Scanner(System.in);
         System.out.print("NIF: ");
         String nif = teclado.next();
-        //teclado.close();
         return nif;
     }
 
-    public static Fecha pideFecha() {
-        Scanner teclado = new Scanner(System.in);
-        String date = teclado.next();
-        //teclado.close();
+    public static Fecha pideFecha(String date) {
         String[] parts = date.split("/");
         return new Fecha(parts[0],parts[1],parts[2]);
 

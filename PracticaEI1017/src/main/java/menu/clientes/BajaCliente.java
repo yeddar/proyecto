@@ -2,15 +2,17 @@ package menu.clientes;
 
 import datos.Cartera;
 import menu.EjecutaOpcion;
+import menu.Utilidades;
+
+import java.util.Scanner;
 
 public class BajaCliente implements EjecutaOpcion{
 	
 	public void ejecuta(Cartera cartera){
-        CONSOLA.print("Introduce el nif a borrar: ");
-        String nif = TECLADO.next();
 
+        String nif = Utilidades.pedirNif();
         if(cartera.buscarPorNif(nif) == null){
-            CONSOLA.println("El cliente no existe.");
+            System.out.println("El cliente no existe.");
             return;
         }
         cartera.eliminaCliente(nif);

@@ -2,18 +2,20 @@ package main;
 
 import java.util.Scanner;
 import datos.Cartera;
+import menu.OptionsMenu;
 import menu.clientes.*;
 import menu.facturas.*;
 import menu.llamadas.*;
 
 public class MainMenu {
     private Cartera cartera = new Cartera();
-    private boolean salir = false;
+    // public boolean salir = false;
 
     public static void main(String[] args) {
         new MainMenu().ejecuta();
     }
 
+    /*
     private void showMenu() {
         System.out.println();
         System.out.println("0.-Salir.");
@@ -31,7 +33,10 @@ public class MainMenu {
         System.out.println("12.-Listar clientes por fecha.");
         System.out.println("13.-Listar llamadas por fecha.");
     }
+    */
 
+    // TODO Éste método ya no se usa, ahora disponemos de una clase enum.
+    /*
     private void filtrarOpcion(int option){
         switch(option) {
             case 1:
@@ -81,17 +86,20 @@ public class MainMenu {
                 break;
         }
     }
+    */
 
     private void ejecuta(){
         Scanner entrada = new Scanner(System.in);
-        int option;
+        byte option;
         do {
-            showMenu();
+            System.out.println(OptionsMenu.getMenu());
             System.out.print("Introduce una opcion: ");
-            option = entrada.nextInt();
-            filtrarOpcion(option);
+            option = entrada.nextByte();
+            OptionsMenu optionMenu = OptionsMenu.getOption(option);
+            optionMenu.ejecuta(cartera);
+            //filtrarOpcion(option);
 
-        } while(salir != true);
+        } while(option != 0);
         System.out.println("\nHasta luego.");
         entrada.close();
     }

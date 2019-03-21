@@ -6,15 +6,17 @@ import menu.EjecutaOpcion;
 import menu.Utilidades;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class ListarLlamadas implements EjecutaOpcion{
 	
 	public void ejecuta(Cartera cartera){
-        CONSOLA.print("Nif del cual se desea obtener las llamadas: ");
-        String nif = TECLADO.next();
+        Scanner teclado = new Scanner(System.in);
+        System.out.print("Nif del cual se desea obtener las llamadas: ");
+        String nif = teclado.next();
         Cliente cliente = cartera.buscarPorNif(nif);
         if(cliente == null){
-            CONSOLA.println("El cliente no existe.");
+            System.out.println("El cliente no existe.");
             return;
         }
         List<Llamada> llamadas = cliente.getLlamadas();
@@ -24,26 +26,29 @@ public class ListarLlamadas implements EjecutaOpcion{
     }
 
     public void porFecha(Cartera cartera) {
-        CONSOLA.print("Nif del cual se desea obtener las llamadas: ");
-        String nif = TECLADO.next();
+	    Scanner teclado = new Scanner(System.in);
+        System.out.print("Nif del cual se desea obtener las llamadas: ");
+        String nif = teclado.next();
         Cliente cliente = cartera.buscarPorNif(nif);
         if(cliente == null){
-            CONSOLA.println("El cliente no existe.");
+            System.out.println("El cliente no existe.");
             return;
         }
-        CONSOLA.print("Fecha inicio (DD/MM/YYYY): ");
-        Fecha diaInicio = Utilidades.pideFecha();
-        CONSOLA.print("Fecha fin (DD/MM/YYYY): ");
-        Fecha diaParada = Utilidades.pideFecha();
+        System.out.print("Fecha inicio (DD/MM/YYYY): ");
+        String date = teclado.next();
+        Fecha diaInicio = Utilidades.pideFecha(date);
+        System.out.print("Fecha fin (DD/MM/YYYY): ");
+        date = teclado.next();
+        Fecha diaParada = Utilidades.pideFecha(date);
         List<Llamada> newList = cliente.getLlamadas();
         newList = new Funcional().filtrar(newList,diaInicio,diaParada);
         if(newList.isEmpty()) {
-            CONSOLA.println("No se ha encontrado ningún cliente dentro de ese periodo.");
+            System.out.println("No se ha encontrado ningún cliente dentro de ese periodo.");
             return;
         }
         // Hay clientes en la lista.
         for(Llamada call : newList) {
-            CONSOLA.println(call);
+            System.out.println(call);
         }
     }
 

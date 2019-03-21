@@ -5,23 +5,27 @@ import datos.clientes.Cliente;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
+import java.util.Scanner;
+
 public class AltaLlamada implements EjecutaOpcion{
 	
 	public void ejecuta(Cartera cartera) {
-        CONSOLA.print("Nif del cliente que realiza la llamada: ");
-        String nif = TECLADO.next();
+	    Scanner teclado = new Scanner(System.in);
+        System.out.print("Nif del cliente que realiza la llamada: ");
+        String nif = teclado.next();
         Cliente cliente = cartera.buscarPorNif(nif);
         if(cliente == null) {
-            CONSOLA.println("El cliente no existe.");
+            System.out.println("El cliente no existe.");
             return;
         }
-        CONSOLA.print("Telefono: ");
-        String phone = TECLADO.next();
-        CONSOLA.print("Duracion de la llamada (min): ");
-        double duration = TECLADO.nextDouble();
+        System.out.print("Telefono: ");
+        String phone = teclado.next();
+        System.out.print("Duracion de la llamada (min): ");
+        double duration = teclado.nextDouble();
 
         System.out.print("Fecha de realización de la llamada (DD/MM/YYYY): ");
-        Fecha date = Utilidades.pideFecha();
-        cliente.altaLlamada(new Llamada(phone, date, duration));
+        String date = teclado.next();
+        Fecha dateConversed = Utilidades.pideFecha(date);
+        cliente.altaLlamada(new Llamada(phone, dateConversed, duration));
     }
 }
