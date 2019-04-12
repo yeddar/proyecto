@@ -9,7 +9,7 @@ public class Funcional {
         List<T> newList = new ArrayList<T>();
 
         for (T elem : list) {
-            if(elem.getFecha().insideOf(ini,fin))
+            if(elem.getFecha().insideOfDate(ini,fin))
                 newList.add(elem);
         }
         return newList;

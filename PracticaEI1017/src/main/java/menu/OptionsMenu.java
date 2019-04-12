@@ -10,12 +10,14 @@ import menu.llamadas.AltaLlamada;
 import menu.llamadas.ListarLlamadas;
 import menu.llamadas.ListarLlamadasFecha;
 
+// todo Bien por el patrón de diseño Estrategia
 public enum OptionsMenu {
     SALIR("Salir.", new Salir()),
     ALTA_EMPRESA("Alta empresa.", new AltaEmpresa()),
     ALTA_PARTICULAR("Alta Particular.", new AltaParticular()),
     BUSCA_CLIENTE("Buscar cliente.", new BuscarPorNif()),
-    CAMBIA_TARIFA("Cambiar la tarifa", new CambiaTarifa()),
+    MODIFICA_TARIFA("Modificar la tarifa", new CambiaTarifa()),
+    //CAMBIA_TARIFA("Cambiar la tarifa", new CambiaTarifa()),
     LISTA_CLIENTES("Listar todos los clientes", new ListarClientes()),
     BAJA_CLIENTE("Baja cliente", new BajaCliente()),
     ALTA_LLAMADA("Dar de alta una llamada", new AltaLlamada()),
@@ -23,9 +25,9 @@ public enum OptionsMenu {
     EMITE_FACTURA("Emitir factura", new EmiteFactura()),
     MUESTRA_FACTURA("Mostrar factura cliente", new DatoFactura()),
     LISTA_FACTURAS("Listar todas las facturas", new ListarFacturas()),
-    CLIENTES_POR_FECHA("Listar clientes por fecha de alta", new ListarClientesFecha()),
-    LLAMADAS_POR_FECHA("Listar llamadas por fecha de alta", new ListarLlamadasFecha()),
-    FACTURAS_POR_FECHA("Listar facturas por fecha de alta", new ListarFacturasFecha());
+    CLIENTES_POR_FECHA("Listar clientes por fecha", new ListarClientesFecha()),
+    LLAMADAS_POR_FECHA("Listar llamadas por fecha", new ListarLlamadasFecha()),
+    FACTURAS_POR_FECHA("Listar facturas por fecha", new ListarFacturasFecha());
 
 
     private String description;

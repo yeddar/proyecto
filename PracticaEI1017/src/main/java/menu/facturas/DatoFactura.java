@@ -2,27 +2,29 @@ package menu.facturas;
 
 import datos.Cartera;
 import datos.Factura;
+import exceptions.ClienteNoExiste;
+import exceptions.FacturaNoExiste;
 import menu.EjecutaOpcion;
+import menu.Utilidades;
 
 import java.util.Scanner;
 
 public class DatoFactura implements EjecutaOpcion{
 	
 	public void ejecuta (Cartera cartera) {
-	    Scanner teclado = new Scanner(System.in);
-		System.out.print("Nif del cliente: ");
-        String nif = teclado.next();
-        if (cartera.buscarPorNif(nif) == null) {
-            System.out.println("No existe ningun cliente con este NIF.\n");
-        	return;
+        String nif = Utilidades.pedirNif();
+        try {
+            Utilidades.clienteExiste(cartera, nif);
+        } catch (ClienteNoExiste e) {
+            e.printStackTrace();
+            return;
         }
-        System.out.print("Codigo de la factura: ");
-        String code = teclado.next();
-        Factura factura = cartera.buscarPorNif(nif).getFactura(code);
-        if (factura == null) {
-            System.out.println("No existe ninguna factura con ese codigo para este cliente.\n");
-        	return;
+        String code = Utilidades.pedirCodigo();
+        try {
+            Utilidades.facturaExiste(cartera, nif, code);
+            System.out.println(cartera.buscarPorNif(nif).getFactura(code));
+        } catch (FacturaNoExiste e) {
+            e.printStackTrace();
         }
-        System.out.println(factura);
-	}
+    }
 }

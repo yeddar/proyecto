@@ -2,37 +2,21 @@ package menu.clientes;
 
 import datos.*;
 import datos.clientes.Cliente;
-import datos.clientes.Empresa;
+import exceptions.ClientAlreadyExists;
+import exceptions.ClienteNoExiste;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
-import java.util.Scanner;
-
 public class AltaEmpresa implements EjecutaOpcion{
 
+    // TODO Respecto al comentario de la practica anterior de mover la funcion de añadir cliente, no se si esto estaria bien
 	public void ejecuta(Cartera cartera) {
-	    Scanner teclado = new Scanner(System.in);
-		System.out.print("Nif: ");
-        String nif = teclado.next();
-        if (cartera.buscarPorNif(nif) != null) {
-            System.out.println("Ya existe un cliente con este nif.\n");
-        	return;
-        }
-        System.out.print("Name: ");
-        String name = teclado.next();
-        System.out.print("Email: ");
-        String email = teclado.next();
-        System.out.print("Postal Code: ");
-        String postalCode = teclado.next();
-        System.out.print("Province: ");
-        String province = teclado.next();
-        System.out.print("City: ");
-        String city = teclado.next();
-        System.out.print("Fecha de alta (DD/MM/YYYY): ");
-        String date = teclado.next();
-        Fecha dateConversed = Utilidades.pideFecha(date);
-        Cliente cliente = new Empresa(dateConversed,postalCode,province,city,nif,name,email);
-        cartera.nuevoCliente(cliente);
+            try{
+                    Cliente cliente = Utilidades.pideDatos(cartera, false);
+                    Utilidades.anadirCliente(cartera, cliente);
+            } catch  (ClientAlreadyExists e) {
+                    e.printStackTrace();
+            }
     }
 	
 }

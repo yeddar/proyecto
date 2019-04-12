@@ -1,6 +1,8 @@
 package datos;
 
-public class Address {
+import java.io.Serializable;
+
+public class Address implements Serializable {
 
 	protected String postalCode;
     protected String province;

@@ -1,5 +1,9 @@
 package datos.test;
 
+import datos.Tarifas.PorDia;
+import datos.Tarifas.PorFranjaHoraria;
+import datos.Tarifas.Tarifa;
+import datos.Tarifas.TarifaBasica;
 import datos.clientes.Cliente;
 import datos.clientes.Empresa;
 import datos.clientes.Particular;
@@ -16,7 +20,20 @@ import java.util.List;
 
 public class DatosTest {
 	private static Cartera cartera = new Cartera();
-	
+
+	// TODO Todavía falta pulir los test por falta de tiempo.
+
+	@Test
+	public void testTarifas(){
+		Tarifa tarifa = new TarifaBasica();
+		tarifa = new PorFranjaHoraria(tarifa);
+		tarifa = new PorDia(tarifa);
+
+
+		Llamada llamada = new Llamada("987654321",new Fecha("14","04","2019"), new Fecha("16","00"), 1);
+		assertThat(tarifa.getPrice(llamada), is(0.00));
+	}
+
 	@Test
 	public void TestNullClientes(){
 		Cliente cliente1 = new Particular(new Fecha("20","02","2019"), "12170", "cas", "san", "20612594V", "Jose", "Gil", "cocsi" );
@@ -29,13 +46,14 @@ public class DatosTest {
 	
 	@Test
 	public void TestBorrarClientes() {
+		// TODO ¿Como sabeis que este?
 		cartera.eliminaCliente("B2345678");
 		assertThat(cartera.buscarPorNif("B2345678"), nullValue());
 	}
 	
 	@Test
 	public void TestAnadirLlamada() {
-		cartera.buscarPorNif("20612594V").altaLlamada(new Llamada("987654321", new Fecha("24","02","2019"), 4));
+		cartera.buscarPorNif("20612594V").altaLlamada(new Llamada("987654321", new Fecha("24","02","2019"),new Fecha("00","00"), 4));
 		List<Llamada> listaLlamadas = cartera.buscarPorNif("20612594V").getLlamadas();
 		for (Llamada llamada : listaLlamadas) {
 			assertEquals(llamada.getTelefono(), "987654321");
@@ -44,6 +62,7 @@ public class DatosTest {
 	
 	// No hemos podido crear un test para comprobar el correcto funcionamiento de la creacion de una factura debido a que hay un problema que no entendemos con el buscarPorNif, ya que devuelve null cuando no deberia.
 	// Esto es lo que teniamos
+	// TODO Contestando vuestra duda: Recordad que las pruebas son independientes, es decir, no podeis suponer que vuestra cartera contenga datos a menos que la inicieis en un metodo anotado con @Before, que no es vuestro caso.
 	/*
 	@Test
 	public void TestHacerFactura() {

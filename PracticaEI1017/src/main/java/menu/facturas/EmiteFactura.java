@@ -1,56 +1,59 @@
 package menu.facturas;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.List;
 import java.util.Scanner;
 
 import datos.*;
+import datos.Tarifas.Tarifa;
 import datos.clientes.Cliente;
+import exceptions.ClienteNoExiste;
+import exceptions.FacturaNoExiste;
+import exceptions.FechaInvalida;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
 public class EmiteFactura implements EjecutaOpcion{
 
 	public void ejecuta(Cartera cartera) {
-	    Scanner teclado = new Scanner(System.in);
-		System.out.print("Nif del cliente a realizar la factura: ");
-        String nif = teclado.next();
-        Cliente cliente = cartera.buscarPorNif(nif);
-        if(cliente == null){
-            System.out.println("El cliente no existe.");
+        String nif = Utilidades.pedirNif();
+        try {
+            Utilidades.clienteExiste(cartera, nif);
+        } catch (ClienteNoExiste e) {
+            e.printStackTrace();
             return;
-        } String code;
-        while (true){
-            System.out.print("Introduce el codigo para la factura: ");
-            code = teclado.next();
-        	Factura factura = cliente.getFactura(code);
-        	if (factura == null)
-        		// No hay factura registrada con ese código.
-        		break;
-
-            System.out.println("Ese codigo ya existe para este cliente.");
         }
-
+        String code = Utilidades.pedirCodigo();
+        try {
+            Utilidades.facturaExisteEmitir(cartera, nif, code);
+        } catch (FacturaNoExiste e) {
+            e.printStackTrace();
+            return;
+        }
         double amount = 0;
-        Fecha hoy = new Fecha(LocalDate.now());
+        Fecha hoy = new Fecha(LocalDate.now(),LocalTime.now());
+        Fecha diaInicio;
+        Fecha diaParada;
+        try {
+            Fecha[] fechas = Utilidades.pedirFechas();
+            diaInicio = fechas[0];
+            diaParada = fechas[1];
+        } catch (FechaInvalida e){
+            e.printStackTrace();
+            return;
+        }
+        Cliente cliente = cartera.buscarPorNif(nif);
+        List<Llamada> list = cliente.getLlamadas();
 
-        // Pide al usuario el intervalo de la factura.
-        System.out.print("Fecha de inicio (DD/MM/YYYY): ");
-        String date = teclado.next();
-		Fecha diaInicio = Utilidades.pideFecha(date);
-        System.out.print("Fecha de parada (DD/MM/YYYY): ");
-        date = teclado.next();
-        Fecha diaParada = Utilidades.pideFecha(date);
-
-
-        List<Llamada> lista = cliente.getLlamadas();
-        for (Llamada llamada : lista) {
-        	Fecha actual = llamada.getFecha();
-        	if (actual.insideOf(diaInicio,diaParada)){  // Es correcta
-        		amount = amount + llamada.getTiempo() * cliente.getTarifa().getPriseSec();
+        for (Llamada llamada : list) {
+        	Fecha fecha = llamada.getFecha();
+        	if (fecha.insideOfDate(diaInicio,diaParada)){  // Es correcta
+        		amount = amount + llamada.getPrice(cliente); //TODO esto se ha cambiaoo
         	}
-        } double tarifaUsada = cliente.getTarifa().getPriseSec();
-        Factura nuevaFactura = new Factura(code, tarifaUsada, hoy, diaInicio, diaParada, amount);
+        }
+        Factura nuevaFactura = new Factura(code, hoy, diaInicio, diaParada, amount);
+        // TODO ¿En factura, tambien se debería mover el metodo de anadir la factura?
         cliente.altaFactura(code, nuevaFactura);
 	}
 }

@@ -5,6 +5,8 @@ import datos.Factura;
 import datos.Fecha;
 import datos.Funcional;
 import datos.clientes.Cliente;
+import exceptions.ClienteNoExiste;
+import exceptions.FechaInvalida;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
@@ -15,31 +17,32 @@ import java.util.Scanner;
 public class ListarFacturasFecha implements EjecutaOpcion {
     @Override
     public void ejecuta(Cartera cartera) {
-        Scanner teclado = new Scanner(System.in);
-        System.out.print("Nif del cual se desea obtener las facturas: ");
-        String nif = teclado.next();
-        Cliente cliente = cartera.buscarPorNif(nif);
-        if(cliente == null){
-            System.out.println("El cliente no existe.");
+        String nif = Utilidades.pedirNif();
+        try{
+            Utilidades.clienteExiste(cartera, nif);
+        } catch (ClienteNoExiste e){
+            e.printStackTrace();
             return;
         }
-        System.out.print("Fecha inicio (DD/MM/YYYY): ");
-        String date = teclado.next();
-        Fecha diaInicio = Utilidades.pideFecha(date);
-        System.out.print("Fecha fin (DD/MM/YYYY): ");
-        date = teclado.next();
-        Fecha diaParada = Utilidades.pideFecha(date);
+        try {
+            Fecha[] fechas = Utilidades.pedirFechas();
+            Fecha diaInicio = fechas[0];
+            Fecha diaParada = fechas[1];
+            Cliente cliente = cartera.buscarPorNif(nif);
+            List<Factura> newList = new ArrayList<>(cliente.getListaFacturas().values());
 
-        List<Factura> newList = new ArrayList<>(cliente.getListaFacturas().values());
-
-        newList = new Funcional().filtrar(newList,diaInicio,diaParada);
-        if(newList.isEmpty()) {
-            System.out.println("No se ha encontrado ningúna factura dentro de ese periodo.");
+            newList = new Funcional().filtrar(newList,diaInicio,diaParada);
+            if(newList.isEmpty()) {
+                return;
+            }
+            // Hay clientes en la lista.
+            for(Factura bill : newList) {
+                System.out.println(bill);
+            }
+        } catch (FechaInvalida e){
+            e.printStackTrace();
             return;
         }
-        // Hay clientes en la lista.
-        for(Factura bill : newList) {
-            System.out.println(bill);
-        }
+
     }
 }

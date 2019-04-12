@@ -1,9 +1,11 @@
 package datos;
 
 
-public class Factura implements Fechas{
+import java.io.Serializable;
+
+public class Factura implements Fechas, Serializable {
 	private String code;
-	private double tarifa;
+	// private double tarifa;
     private Fecha dateOfIssue;
     private Fecha dateOfStart;
     private Fecha dateOfEnd;
@@ -13,9 +15,9 @@ public class Factura implements Fechas{
     	super();
     }
 
-    public Factura(String code, double tarifa, Fecha dateOfIssue, Fecha dateOfStart, Fecha dateOfEnd, double amount) {
+    public Factura(String code, Fecha dateOfIssue, Fecha dateOfStart, Fecha dateOfEnd, double amount) {
     	this.code = code;
-    	this.tarifa = tarifa;
+    	// this.tarifa = tarifa; // TODO Quitar tarifa (Clases factura y emiteFactura)
     	this.dateOfIssue = dateOfIssue;
     	this.dateOfStart =dateOfStart;
     	this.dateOfEnd = dateOfEnd;
@@ -25,11 +27,6 @@ public class Factura implements Fechas{
     public String getCode() {
     	return this.code;
     }
-    
-    public double getTarifa() {
-    	return this.tarifa;
-    }
-
     
     public Fecha getDateOfStart() {
     	return this.dateOfStart;
@@ -54,8 +51,8 @@ public class Factura implements Fechas{
     	StringBuilder builder = new StringBuilder();
 		builder.append("[ ");
         builder.append("Code: "+code);
-        builder.append(", ");
-        builder.append("Bill: "+tarifa);
+        //builder.append(", "); //TODO Pendiente de eliminar
+        //builder.append("Bill: "+tarifa);
         builder.append(", ");
         builder.append("Date of Issue: "+dateOfIssue);
         builder.append(", ");

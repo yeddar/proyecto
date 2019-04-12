@@ -2,105 +2,100 @@ package main;
 
 import java.util.Scanner;
 import datos.Cartera;
-import menu.OptionsMenu;
-import menu.clientes.*;
-import menu.facturas.*;
-import menu.llamadas.*;
+import menu.*;
+
 
 public class MainMenu {
     private Cartera cartera = new Cartera();
-    // public boolean salir = false;
+    private boolean salir = false;
 
+    // TODO Las excepciones estan implementadas, lo unico que lo hemos dejado "sucio", es decir, que muestra el mensaje de la excepcion en vez de un mensaje personaliado.
     public static void main(String[] args) {
         new MainMenu().ejecuta();
     }
 
-    /*
     private void showMenu() {
         System.out.println();
-        System.out.println("0.-Salir.");
-        System.out.println("1.-Alta empresa.");
-        System.out.println("2.-Alta particular.");
-        System.out.println("3.-Buscar por nif.");
-        System.out.println("4.-Listar clientes.");
-        System.out.println("5.-Cambiar tarifa.");
-        System.out.println("6.-Dar de baja un cliente.");
-        System.out.println("7.-Listar llamadas.");
-        System.out.println("8.-Alta llamada.");
-        System.out.println("9.-Emitir factura.");
-        System.out.println("10.-Listar factura en concreto.");
-        System.out.println("11.-Listar todas las facturas.");
-        System.out.println("12.-Listar clientes por fecha.");
-        System.out.println("13.-Listar llamadas por fecha.");
+        System.out.println("0) SALIR.");
+        System.out.println("1) GESTIÓN CLIENTES.");
+        System.out.println("2) GESTIÓN FACTURAS.");
+        System.out.println("3) GESTIÓN LLAMADAS");
     }
-    */
 
-    // TODO Éste método ya no se usa, ahora disponemos de una clase enum.
-    /*
-    private void filtrarOpcion(int option){
-        switch(option) {
+    private void filtrarOpcion(int option) {
+        switch (option) {
             case 1:
-                new AltaEmpresa().ejecuta(cartera);
+                clienteMenu(cartera);
                 break;
             case 2:
-                new AltaParticular().ejecuta(cartera);
+                facturaMenu(cartera);
                 break;
             case 3:
-                new BuscarPorNif().ejecuta(cartera);
-                break;
-            case 4:
-                new ListarClientes().ejecuta(cartera);
-                break;
-            case 5:
-                new CambiaTarifa().ejecuta(cartera);
-                break;
-            case 6:
-                new BajaCliente().ejecuta(cartera);
-                break;
-            case 7:
-                new ListarLlamadas().ejecuta(cartera);
-                break;
-            case 8:
-                new AltaLlamada().ejecuta(cartera);
-                break;
-            case 9:
-                new EmiteFactura().ejecuta(cartera);
-                break;
-            case 10:
-                new DatoFactura().ejecuta(cartera);
-                break;
-            case 11:
-                new ListarFacturas().ejecuta(cartera);
-                break;
-            case 12:
-                new ListarClientes().porFecha(cartera);
-                break;
-            case 13:
-                new ListarLlamadas().porFecha(cartera);
+                llamadaMenu(cartera);
                 break;
             case 0:
                 salir = true;
                 break;
             default:
-                System.out.println("Esta opcion no es correcta\n");
+                System.out.println("La opción no es correcta\n");
                 break;
         }
     }
-    */
+    //TODO Habría que reducir código común en los métodos menú.
+
+    public static void facturaMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN FACTURAS");
+            System.out.println(OptionsFactura.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsFactura optionFactura = OptionsFactura.getOption(option);
+            optionFactura.ejecuta(cartera);
+        } while(option != 0);
+    }
+
+    public static void clienteMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN CLIENTES");
+            System.out.println(OptionsClients.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsClients optionClients = OptionsClients.getOption(option);
+            optionClients.ejecuta(cartera);
+        } while(option != 0);
+    }
+
+    public static void llamadaMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN LLAMADAS");
+            System.out.println(OptionsLlamada.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsLlamada optionLlamada = OptionsLlamada.getOption(option);
+            optionLlamada.ejecuta(cartera);
+        } while(option != 0);
+    }
 
     private void ejecuta(){
         Scanner entrada = new Scanner(System.in);
         byte option;
+        new CargarCartera().ejecuta(cartera);
         do {
-            System.out.println(OptionsMenu.getMenu());
+            System.out.println("MENÚ PRINCIPAL");
+            showMenu();
             System.out.print("Introduce una opcion: ");
             option = entrada.nextByte();
-            OptionsMenu optionMenu = OptionsMenu.getOption(option);
-            optionMenu.ejecuta(cartera);
-            //filtrarOpcion(option);
+            filtrarOpcion(option);
 
-        } while(option != 0);
+        } while(salir != true);
         System.out.println("\nHasta luego.");
+        new GuardarCartera().ejecuta(cartera);
         entrada.close();
     }
 }

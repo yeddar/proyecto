@@ -2,10 +2,11 @@ package datos;
 
 import datos.clientes.Cliente;
 
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Cartera {
+public class Cartera implements Serializable {
 
 	    private Map<String, Cliente> clientes;
 
@@ -14,12 +15,17 @@ public class Cartera {
 	        clientes = new HashMap<String,Cliente>();
 	    }
 
+	    public void setClientes(Object obj){
+	    	clientes = (Map<String, Cliente>) obj;
+		}
+
 	    public void nuevoCliente(Cliente cliente){
 	        clientes.put(cliente.getNif(),cliente);
 	    }
 
 	    public Map<String, Cliente> getClientes(){
-	        return clientes;
+			Map<String, Cliente> aux = clientes;
+	    	return aux;
 	    }
 	    
 	    public Cliente buscarPorNif(String nif){

@@ -2,6 +2,7 @@ package menu.clientes;
 
 import datos.Cartera;
 import datos.clientes.Cliente;
+import exceptions.ClienteNoExiste;
 import menu.EjecutaOpcion;
 import menu.Utilidades;
 
@@ -10,15 +11,14 @@ import java.util.Scanner;
 public class CambiaTarifa implements EjecutaOpcion{
 	
 	public void ejecuta(Cartera cartera) {
-	    Scanner teclado = new Scanner(System.in);
         String nif = Utilidades.pedirNif();
-        Cliente cliente = cartera.buscarPorNif(nif);
-        if (cliente == null) {
-            System.out.println("Cliente no encontrado.");
-            return;
+        try {
+            Utilidades.clienteExiste(cartera, nif);
+            double priceSec = Utilidades.pedirTarifa();
+            cartera.setTarifa(nif, priceSec);
+        } catch (ClienteNoExiste e){
+            e.printStackTrace();
         }
-        System.out.print("Indica la tarifa (eur/min): ");
-        double priceSec = teclado.nextDouble();
-        cartera.setTarifa(nif, priceSec);
+
     }
 }
