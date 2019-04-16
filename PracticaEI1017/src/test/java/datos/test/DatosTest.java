@@ -25,13 +25,13 @@ public class DatosTest {
 
 	@Test
 	public void testTarifas(){
-		Tarifa tarifa = new TarifaBasica();
-		tarifa = new PorFranjaHoraria(tarifa);
-		tarifa = new PorDia(tarifa);
+		Tarifa tarifa = new TarifaBasica(0.15);
+		tarifa = new PorFranjaHoraria(tarifa, 0.01, new Fecha("16","00"), new Fecha("20","00"));
+		tarifa = new PorDia(tarifa, 0.02, "SATURDAY");
+		tarifa = new PorFranjaHoraria(tarifa, 0.05, new Fecha("16","00"), new Fecha("17","00"));
 
-
-		Llamada llamada = new Llamada("987654321",new Fecha("14","04","2019"), new Fecha("16","00"), 1);
-		assertThat(tarifa.getPrice(llamada), is(0.00));
+		Llamada llamada = new Llamada("987654321",new Fecha("13","04","2019"), new Fecha("16","00"), 1);
+		assertThat(tarifa.getPrice(llamada), is(0.05));
 	}
 
 	@Test

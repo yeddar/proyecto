@@ -49,7 +49,7 @@ public class EmiteFactura implements EjecutaOpcion{
         for (Llamada llamada : list) {
         	Fecha fecha = llamada.getFecha();
         	if (fecha.insideOfDate(diaInicio,diaParada)){  // Es correcta
-        		amount = amount + llamada.getPrice(cliente); //TODO esto se ha cambiaoo
+        		//amount = amount + llamada.getPrice(cliente); //TODO esto se ha cambiaoo
         	}
         }
         Factura nuevaFactura = new Factura(code, hoy, diaInicio, diaParada, amount);

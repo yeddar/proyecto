@@ -2,18 +2,17 @@ package datos.Tarifas;
 
 import datos.Llamada;
 
-public class PorDia extends Tarifa{
-    private Tarifa tarifa;
+public class PorDia extends Extra{
+    private String day;
 
-    public PorDia(Tarifa tarifa){
-        super(0.00);
-        this.tarifa = tarifa;
-
+    public PorDia(Tarifa tarifa, double priceMin, String day){
+        super(tarifa, priceMin);
+        this.day = day;
     }
 
     @Override
     public double getPrice(Llamada llamada){
-        if(llamada.getFecha().getDayOfWeek().equals("SUNDAY"))
+        if(llamada.getFecha().getDayOfWeek().equals(day))
             return super.getPrice(llamada);
         else
             return tarifa.getPrice(llamada);

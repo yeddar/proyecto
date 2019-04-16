@@ -3,20 +3,20 @@ package datos.Tarifas;
 import datos.Fecha;
 import datos.Llamada;
 
-public class PorFranjaHoraria extends Tarifa {
-    private Tarifa tarifa;
+public class PorFranjaHoraria extends Extra {
+    private Fecha hIni;
+    private Fecha hFin;
 
-    public PorFranjaHoraria(Tarifa tarifa){
-        super(0.05);
-        this.tarifa = tarifa;
+    public PorFranjaHoraria(Tarifa tarifa, double priceMin, Fecha hIni, Fecha hFin){
+        super(tarifa, priceMin);
+        this.hFin = hFin;
+        this.hIni = hIni;
     }
 
     @Override
     public double getPrice(Llamada llamada){
-        Fecha ini = new Fecha("16","00");
-        Fecha fin = new Fecha("20","00");
 
-        if(llamada.getTime().inisdeOfTime(ini,fin))
+        if(llamada.getTime().inisdeOfTime(hIni,hFin))
             return super.getPrice(llamada);
         else
             return tarifa.getPrice(llamada);

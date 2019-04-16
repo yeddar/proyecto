@@ -27,20 +27,20 @@ public class Llamada implements Fechas, Serializable {
 		this.duration = duration;
 		this.time = time;
 	}
-
+/*
 	public double getPrice(Cliente cliente) { //TODO Ahora llamada devuelve el precio de la llamada aplicando TODAS las tarifas
-		Tarifa tarifa = cliente.getTarifa();
-		tarifa = new TarifaBasica(tarifa);
-		tarifa = new PorFranjaHoraria(tarifa);
-		tarifa = new PorDia(tarifa);
+		Tarifa tarifa = new TarifaBasica(0.15);
+		tarifa = new PorFranjaHoraria(tarifa,0.05);
+		tarifa = new PorDia(tarifa, 0.00);
 		return tarifa.getPrice(this);
 	}
+	*/
 	
 	public String getTelefono() {
 		return this.phone;
 	}
 	
-	public double getTiempo() {
+	public double getDuracion() {
 		return this.duration;
 	}
 

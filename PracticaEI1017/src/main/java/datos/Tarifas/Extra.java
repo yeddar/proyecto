@@ -2,14 +2,17 @@ package datos.Tarifas;
 
 import datos.Llamada;
 
-public class TarifaBasica extends Tarifa {
+public abstract class Extra extends Tarifa{
+    protected Tarifa tarifa;
 
-    public TarifaBasica(double priceMin){
+    public Extra(Tarifa tarifa, double priceMin) {
         super(priceMin);
+        this.tarifa = tarifa;
     }
 
-    @Override
     public double getPrice(Llamada llamada) {
         return super.getPrice(llamada);
     }
+
+
 }

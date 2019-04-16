@@ -29,7 +29,7 @@ public abstract class Cliente implements Fechas, Serializable {
         this.address = new Address(postalCode,province,city);
         this.facturas = new HashMap<String, Factura>();
         this.llamadas = new ArrayList<Llamada>();
-        this.tarifaBase = new TarifaBasica();
+        this.tarifaBase = new TarifaBasica(0.15);
         this.email = email;
         this.name = name;
         this.nif = nif;
