@@ -5,7 +5,8 @@ import java.util.Scanner;
 import Modelo.datos.Cartera;
 import Modelo.datos.factory.clientes.FactoryClientes;
 import Modelo.datos.factory.tarifas.FactoryTarifas;
-import View.clientes.Formulario;
+
+import View.ImplementaVista;
 import View.menu.*;
 import controlador.*;
 
@@ -93,12 +94,11 @@ public class MainMenu {
     }
 
     private void ejecuta(){
-        //new CargarCartera().ejecuta(cartera);
 
         // Cargar GUI
         Utilidades controlador = new Utilidades(cartera);
         controlador.cargarCartera();
-        Formulario vista = new Formulario();
+        ImplementaVista vista = new ImplementaVista();
         cartera.setVista(vista);
         controlador.setVista(vista);
         controlador.setModelo(cartera);
@@ -117,8 +117,6 @@ public class MainMenu {
 
         } while(salir != true);
         System.out.println("\nHasta luego.");
-        //new GuardarCartera().ejecuta(cartera);
-        //controlador.guardarCartera();
         entrada.close();
     }
 }

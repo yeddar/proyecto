@@ -2,43 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f188e8-50d9-4ebd-8119-720aead757de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EjemploMVC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/Form1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/ShowTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SolicitaNif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SpringUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modelo/CambioModelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modelo/InterrogaModelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/Emergente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/InformaVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/InterrogaVista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/DatosCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/FormCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/PedirCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/ShowTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/Controlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/PracticaEI1017.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/interfaz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaMejorable" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AgendaMejorada" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorada" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conversor" beforeDir="false" afterPath="$PROJECT_DIR$/../Conversor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC/src/vista/Form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/Form1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC/src/vista/ShowTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/ShowTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC/src/vista/SolicitaNif.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SolicitaNif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC/src/vista/SpringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SpringUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC_new/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjemploMVC_new/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cartera.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cartera.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/ImplementaVista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application/main/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application/main/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$EscuchadorVentana.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$EscuchadoraBoton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario$EscuchadoraModificarTarifa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/clientes/Formulario.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PracticaEI1017.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/misc.xml" afterDir="false" />
@@ -119,6 +113,9 @@
       <change beforePath="$PROJECT_DIR$/../PrimerProyecto/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrimerProyecto/src/test/java/Nueva.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../fechas/src/main/java/Fechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fechas/src/main/java/Fechas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaz/src/main/java/SpringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interfaz/src/main/java/SpringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
@@ -142,24 +139,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/ImplementaVista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="415" column="53" lean-forward="true" selection-start-line="415" selection-start-column="53" selection-end-line="415" selection-end-column="53" />
+            <state relative-caret-position="177">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#16458#16459#0" expanded="true" />
-                <element signature="e#16508#16509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/clientes/Cliente.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="629">
+              <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,30 +174,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
+            <state relative-caret-position="510">
               <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1387#1388#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1551#1552#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-                <element signature="e#1631#1632#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1703#1704#0" expanded="true" />
-                <element signature="e#1743#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/InterrogaVista.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -207,7 +195,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/OptionsMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
+            <state relative-caret-position="285">
               <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
             </state>
           </provider>
@@ -216,7 +204,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Fecha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
+            <state relative-caret-position="285">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
@@ -225,7 +213,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Controlador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="195">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -237,7 +225,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Utilidades.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="2580">
               <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -303,7 +291,6 @@
         <option value="$PROJECT_DIR$/src/main/java/View/clientes/MenuCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/menu/Front.java" />
         <option value="$PROJECT_DIR$/src/main/java/Modelo/CambioModelo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/clientes/FormCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/controlador/Clientes/BajaCliente.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/Emergente.java" />
@@ -327,6 +314,8 @@
         <option value="$PROJECT_DIR$/src/main/java/View/menu/OptionsClients.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java" />
         <option value="$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/Formulario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java" />
       </list>
     </option>
   </component>
@@ -343,7 +332,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -493,52 +481,17 @@
               <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
               <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="clientes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="facturas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="llamadas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557858495638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557859305041" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -602,8 +555,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18416801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,7 +566,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36849314" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36849314" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -728,23 +682,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/FormParticular.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/MenuCliente.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/Front.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/GuardarCartera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/GuardarCartera.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Funcional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -752,13 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CargarCartera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CargarCartera.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/View/Emergente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -766,13 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/BajaCliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/BajaCliente.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/View/facturas/ListarFacturas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -913,40 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Fecha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CambiaTarifa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Controlador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Utilidades.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/clientes/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -961,49 +853,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/OptionsMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="285">
           <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Fecha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="415" column="53" lean-forward="true" selection-start-line="415" selection-start-column="53" selection-end-line="415" selection-end-column="53" />
+        <state relative-caret-position="285">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Controlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#16458#16459#0" expanded="true" />
-            <element signature="e#16508#16509#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Utilidades.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="2580">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CambiaTarifa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/View/InterrogaVista.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/ImplementaVista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

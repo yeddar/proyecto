@@ -1,9 +1,10 @@
-package View.clientes;
+package View;
 
 import Modelo.datos.Fecha;
 import Modelo.datos.clientes.Cliente;
 import Modelo.exceptions.ClienteNoExiste;
 import View.Emergente;
+import View.clientes.*;
 import com.sun.org.apache.xml.internal.security.utils.JDKXPathAPI;
 import controlador.Controlador;
 import Modelo.InterrogaModelo;
@@ -15,7 +16,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class Formulario extends JDialog implements InterrogaVista, InformaVista {
+public class ImplementaVista extends JDialog implements InterrogaVista, InformaVista {
     private Controlador controlador;
     private InterrogaModelo modelo;
     private FormCliente formCliente;
@@ -23,7 +24,7 @@ public class Formulario extends JDialog implements InterrogaVista, InformaVista 
     private PedirCliente pedirCliente;
 
 
-    public Formulario(){
+    public ImplementaVista(){
         //controlador.cargarCartera();
         formCliente = new FormCliente();
         pedirCliente = new PedirCliente();
