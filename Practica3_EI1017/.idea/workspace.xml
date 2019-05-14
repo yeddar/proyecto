@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06f188e8-50d9-4ebd-8119-720aead757de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EjemploMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/Form1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/ShowTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SolicitaNif.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjemploMVC/src/vista/SpringUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modelo/CambioModelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modelo/InterrogaModelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/Emergente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/InformaVista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/InterrogaVista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/DatosCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/FormCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/PedirCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/clientes/ShowTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/Controlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PracticaEI1017/PracticaEI1017.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/interfaz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interfaz/src/main/java/SpringUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgendaMejorable" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgendaMejorada" beforeDir="false" afterPath="$PROJECT_DIR$/../AgendaMejorada" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conversor" beforeDir="false" afterPath="$PROJECT_DIR$/../Conversor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/cartera.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/cartera.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Cartera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Cartera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Llamada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Llamada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Tarifas/Extra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Tarifas/PorDia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Tarifas/PorFranjaHoraria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Tarifas/Tarifa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/Tarifas/TarifaBasica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/clientes/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/datos/clientes/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/exceptions/ClientAlreadyExists.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/exceptions/ClientAlreadyExists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/main/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/main/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsFactura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsLlamada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsLlamada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsTarifa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/OptionsTarifa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/Salir.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/Salir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/Utilidades.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/Utilidades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/clientes/CambiaTarifa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/clientes/CambiaTarifa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/facturas/EmiteFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/main/java/menu/facturas/EmiteFactura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/src/test/java/datos/test/DatosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/src/test/java/datos/test/DatosTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/META-INF/PracticaEI1017.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Cartera.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Cartera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Factura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Fecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Fecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Fechas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Fechas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Funcional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Funcional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Llamada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Llamada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Tarifas/Extra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Tarifas/PorDia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Tarifas/PorFranjaHoraria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Tarifas/Tarifa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/Tarifas/TarifaBasica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Empresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Particular.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/datos/clientes/Particular.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/ClientAlreadyExists.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/ClientAlreadyExists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/ClienteNoExiste.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/ClienteNoExiste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/FacturaNoExiste.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/FacturaNoExiste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/FechaInvalida.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/exceptions/FechaInvalida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/main/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/main/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/CargarCartera.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/CargarCartera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/EjecutaOpcion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/EjecutaOpcion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/GuardarCartera.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/GuardarCartera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsClients.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsClients.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsFactura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsLlamada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsLlamada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsTarifa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/OptionsTarifa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/Salir.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/Salir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/Utilidades.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/Utilidades.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/AltaEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/AltaEmpresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/AltaParticular.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/AltaParticular.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/BajaCliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/BajaCliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/BuscarPorNif.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/BuscarPorNif.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/CambiaTarifa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/CambiaTarifa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/ListarClientes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/ListarClientes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/ListarClientesFecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/clientes/ListarClientesFecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/DatoFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/DatoFactura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/EmiteFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/EmiteFactura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/ListarFacturas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/ListarFacturas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/ListarFacturasFecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/facturas/ListarFacturasFecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/AltaLlamada.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/AltaLlamada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/ListarLlamadas.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/ListarLlamadas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/ListarLlamadasFecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/classes/menu/llamadas/ListarLlamadasFecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/test-classes/META-INF/PracticaEI1017.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticaEI1017/target/test-classes/datos/test/DatosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PracticaEI1017/target/test-classes/datos/test/DatosTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/PrimerProyecto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PrimerProyecto/src/test/java/Nueva.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fechas/src/main/java/Fechas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fechas/src/main/java/Fechas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Clase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PracticaEI1017$MainMenu.ic" NAME="MainMenu Coverage Results" MODIFIED="1557225091366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Application.main.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="415" column="53" lean-forward="true" selection-start-line="415" selection-start-column="53" selection-end-line="415" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#16458#16459#0" expanded="true" />
+                <element signature="e#16508#16509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/clientes/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/tarifas/Tarifa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1631#1632#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/InterrogaVista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/OptionsMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Fecha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Controlador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Utilidades.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CambiaTarifa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pedi</find>
+      <find>pedirE</find>
+      <find>ge</find>
+      <find>showta</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/datos/tarifas/PorFranjaHoraria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/datos/factory/clientes/FactoryClientes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Clientes/CambiaTarifa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/formulario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/InterrogaVista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/InterrogaVista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Clientes/AltaEmpresa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Clientes/BajaCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Llamadas/AltaLlamada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/Utilidades.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Controlador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Clientes/AltaParticular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controlador/Utilidades.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/ImplementaModelo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/ImplementacionVista.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/datos/GuardarCartera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Clientes/AltaParticular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Clientes/AltaEmpresa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Llamadas/AltaLlamada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/FormEmpresa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/FormParticular.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/MenuCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/menu/Front.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/CambioModelo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/FormCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Clientes/BajaCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/Emergente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/facturas/ListarFacturasFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/facturas/ListarFacturas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Clientes/CambiaTarifa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/facturas/DatoFactura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/BuscarPorNif.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/llamadas/ListarLlamadas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Facturas/EmiteFactura.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/PedirCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/DatosCliente.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/llamadas/ListarLlamadasFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/datos/Cartera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Modelo/InterrogaModelo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/ShowTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/ListarClientesFecha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Utilidades.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controlador/Controlador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/menu/OptionsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/menu/OptionsClients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="62" />
+    <option name="y" value="247" />
+    <option name="width" value="1280" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlador" type="462c0819:PsiDirectoryNode" />
+              <item name="Clientes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlador" type="462c0819:PsiDirectoryNode" />
+              <item name="Facturas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controlador" type="462c0819:PsiDirectoryNode" />
+              <item name="Llamadas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="tarifas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Modelo" type="462c0819:PsiDirectoryNode" />
+              <item name="datos" type="462c0819:PsiDirectoryNode" />
+              <item name="tarifas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="facturas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="llamadas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticaEI1017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Practica3_EI1017" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557858495638" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Modelo.datos" />
+      <recent name="Modelo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application.main.MainMenu" />
+      <module name="PracticaEI1017" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Application.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainMenu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06f188e8-50d9-4ebd-8119-720aead757de" name="Default Changelist" comment="" />
+      <created>1556615112901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556615112901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18174475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36849314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968652" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32739726" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32956383" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13004847" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275862" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42163008" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968652" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275862" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32956383" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controlador/InterrogaVista.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controlador/ImplementacionControlador.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/EjecutaOpcion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/InformaVista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/factory/clientes/FactoryClientesInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3255">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/ImplementacionVista.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Factura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/AltaParticular.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/AltaEmpresa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/ImplementaModelo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Llamadas/AltaLlamada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/factory/clientes/FactoryClientes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/FormEmpresa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/FormParticular.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/MenuCliente.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/Front.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application/main/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/GuardarCartera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Funcional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CargarCartera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/Emergente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/BajaCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/facturas/ListarFacturas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/BuscarPorNif.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/llamadas/ListarLlamadas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Facturas/EmiteFactura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/PedirCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/DatosCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/llamadas/ListarLlamadasFecha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Cartera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/CambioModelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/InterrogaModelo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/facturas/DatoFactura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/facturas/ListarFacturasFecha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/ListarClientes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/ShowTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/ListarClientesFecha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="29" column="53" selection-start-line="23" selection-start-column="12" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/FormCliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2347#2348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/OptionsClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/Fecha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Clientes/CambiaTarifa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Controlador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controlador/Utilidades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="193" column="37" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/clientes/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Modelo/datos/tarifas/Tarifa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/menu/OptionsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/Formulario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="415" column="53" lean-forward="true" selection-start-line="415" selection-start-column="53" selection-end-line="415" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#16458#16459#0" expanded="true" />
+            <element signature="e#16508#16509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/clientes/CambiarTarifa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/InterrogaVista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

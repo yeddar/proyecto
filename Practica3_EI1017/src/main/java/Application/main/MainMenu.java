@@ -1,0 +1,124 @@
+package Application.main;
+
+import java.util.Scanner;
+
+import Modelo.datos.Cartera;
+import Modelo.datos.factory.clientes.FactoryClientes;
+import Modelo.datos.factory.tarifas.FactoryTarifas;
+import View.clientes.Formulario;
+import View.menu.*;
+import controlador.*;
+
+
+public class MainMenu {
+    private Cartera cartera = new Cartera();
+    public static FactoryClientes factoryClientes =  new FactoryClientes();
+    public static FactoryTarifas factoryTarifas = new FactoryTarifas();
+    private boolean salir = false;
+
+
+
+    // TODO Las excepciones estan implementadas, lo unico que lo hemos dejado "sucio", es decir, que muestra el mensaje de la excepcion en vez de un mensaje personaliado.
+    public static void main(String[] args) {
+        new MainMenu().ejecuta();
+    }
+
+    private void showMenu() {
+        System.out.println();
+        System.out.println("0) SALIR.");
+        System.out.println("1) GESTIÓN CLIENTES.");
+        System.out.println("2) GESTIÓN FACTURAS.");
+        System.out.println("3) GESTIÓN LLAMADAS");
+    }
+
+    private void filtrarOpcion(int option) {
+        switch (option) {
+            case 1:
+                clienteMenu(cartera);
+                break;
+            case 2:
+                facturaMenu(cartera);
+                break;
+            case 3:
+                llamadaMenu(cartera);
+                break;
+            case 0:
+                salir = true;
+                break;
+            default:
+                System.out.println("La opción no es correcta\n");
+                break;
+        }
+    }
+    //TODO Habría que reducir código común en los métodos menú.
+
+
+    public static void facturaMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN FACTURAS");
+            System.out.println(OptionsFactura.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsFactura optionFactura = OptionsFactura.getOption(option);
+            optionFactura.ejecuta(cartera);
+        } while(option != 0);
+    }
+
+    public static void clienteMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN CLIENTES");
+            System.out.println(OptionsClients.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsClients optionClients = OptionsClients.getOption(option);
+            optionClients.ejecuta(cartera);
+        } while(option != 0);
+    }
+
+    public static void llamadaMenu(Cartera cartera){
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("GESTIÓN LLAMADAS");
+            System.out.println(OptionsLlamada.getMenu());
+            System.out.print("Introduce una opción: ");
+            option = entrada.nextByte();
+            OptionsLlamada optionLlamada = OptionsLlamada.getOption(option);
+            optionLlamada.ejecuta(cartera);
+        } while(option != 0);
+    }
+
+    private void ejecuta(){
+        //new CargarCartera().ejecuta(cartera);
+
+        // Cargar GUI
+        Utilidades controlador = new Utilidades(cartera);
+        controlador.cargarCartera();
+        Formulario vista = new Formulario();
+        cartera.setVista(vista);
+        controlador.setVista(vista);
+        controlador.setModelo(cartera);
+        vista.setControlador(controlador);
+        vista.setModelo(cartera);
+        vista.creaGUI();
+
+        Scanner entrada = new Scanner(System.in);
+        byte option;
+        do {
+            System.out.println("MENÚ PRINCIPAL");
+            showMenu();
+            System.out.print("Introduce una opcion: ");
+            option = entrada.nextByte();
+            filtrarOpcion(option);
+
+        } while(salir != true);
+        System.out.println("\nHasta luego.");
+        //new GuardarCartera().ejecuta(cartera);
+        //controlador.guardarCartera();
+        entrada.close();
+    }
+}
